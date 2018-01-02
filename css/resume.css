@@ -1,0 +1,153 @@
+/*!
+ * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ * Used by Jason Lukose https://github.com/JasonLukose for personal website
+ */
+body {
+  font-family: 'Open Sans', serif;
+  padding-top: 54px;
+  color: #868e96; }
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem; } }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Condensed', serif;
+  font-weight: 100;
+  color: #00254c; }
+
+h1 {
+  font-size: 5rem;
+  line-height: 5.5rem; }
+
+h2 {
+  font-size: 3.5rem; }
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-family: 'Saira Condensed', serif;
+  font-size: 0.95rem; }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 4rem; }
+  .subheading {
+    font-size: 0.85rem; } }
+
+.list-social-icons a {
+  color: #00254c; }
+  .list-social-icons a:hover {
+    color: #eec510; }
+  .list-social-icons a .fa-lg {
+    font-size: 1.75rem; }
+
+.list-icons {
+  font-size: 3rem; }
+  .list-icons .list-inline-item i:hover {
+    color: #eec510; }
+
+#frontPic {
+  width: 60%;
+  padding-bottom: 10px; }
+
+.portfolio {
+  margin-bottom: -15px; }
+  .portfolio .portfolio-item {
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    margin-bottom: 15px; }
+    .portfolio .portfolio-item .portfolio-item-caption {
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      transition: all ease 0.5s;
+      opacity: 0;
+      background-color: rgba(238, 197, 16, 0.9); }
+      .portfolio .portfolio-item .portfolio-item-caption:hover {
+        opacity: 1; }
+      .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+        font-size: 1.5rem; }
+  @media (min-width: 576px) {
+    .portfolio {
+      margin-bottom: -30px; }
+      .portfolio .portfolio-item {
+        margin-bottom: 30px; } }
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 600;
+  text-transform: uppercase; }
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh; }
+    #sideNav .navbar-brand {
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem; }
+      #sideNav .navbar-brand .img-profile {
+        max-width: 10rem;
+        max-height: 10rem;
+        border: 0.5rem solid rgba(255, 255, 255, 0.2); }
+    #sideNav .navbar-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto; }
+      #sideNav .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        width: 100%; }
+        #sideNav .navbar-collapse .navbar-nav .nav-item {
+          display: block; }
+          #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+            display: block; } }
+
+section.resume-section {
+  min-height: 100vh;
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 2rem !important;
+  padding-bottom: 5rem !important; }
+  section.resume-section .resume-item .resume-date {
+    min-width: none; }
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh; }
+    section.resume-section .resume-item .resume-date {
+      min-width: 18rem; } }
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important; } }
+
+.bg-primary {
+  background-color: #00254c !important; }
+
+.text-primary {
+  color: #eec510 !important; }
+
+.text-secondary {
+  color: #00254c !important; }
+
+a {
+  color: #eec510; }
+  a:hover, a:focus, a:active {
+    color: #a68a0b; }
