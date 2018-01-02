@@ -54,6 +54,8 @@ h2 {
   color: #00254c; }
   .list-social-icons a:hover {
     color: #eec510; }
+  .list-social-icons a:focus {
+    color: #00254c; }
   .list-social-icons a .fa-lg {
     font-size: 1.5rem; }
 
