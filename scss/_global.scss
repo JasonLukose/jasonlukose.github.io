@@ -2,13 +2,12 @@
 
 body {
   @include body-font;
-  padding-top: 54px;
+  padding-top: 0px;
   color: $gray-600;
 }
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: $sidebar-base-width;
   }
 }
 
@@ -53,6 +52,18 @@ h2 {
 
 }
 
+@media (max-width: 400px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .subheading {
+    font-size: 0.85rem;
+  }
+
+}
+
 
 .list-social-icons {
   a {
@@ -61,7 +72,7 @@ h2 {
       color: $primary;
     }
     .fa-lg {
-      font-size: 1.75rem;
+      font-size: 1.5rem;
     }
   }
 }
@@ -78,4 +89,24 @@ h2 {
 #frontPic {
   width : 60%;
   padding-bottom: 10px;
+}
+
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -20;
+  background-color: #fefefe;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
